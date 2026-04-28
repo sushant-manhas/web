@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Our prediction of 2026 housing market — Nikolai.CEO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #fafafa;
+    --surface: #ffffff;
+    --text: #1f1f1f;
+    --text-muted: #6b6b6b;
+    --text-soft: #8a8a8a;
+    --rule: #e3e3e3;
+    --accent: #F28E2B;        /* Tableau orange — our-call accent */
+    --accent-ink: #a35a12;
+    --link: #4E79A7;          /* Tableau blue */
+    --highlight: rgba(242,142,43,0.12);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    font-family: 'Source Serif Pro', Charter, Georgia, 'Times New Roman', serif;
+    font-size: 19px;
+    line-height: 1.65;
+    padding: 56px 24px 120px;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .masthead {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .masthead .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+  h1, h2, h3, h4 {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    color: var(--text);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+  h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    margin: 0 0 0.25em;
+    letter-spacing: -0.035em;
+  }
+  h1 .emoji { margin-right: 6px; }
+  h3.deck {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    margin: 0 0 2.2em;
+    font-style: italic;
+    font-family: 'Source Serif Pro', serif;
+  }
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 700;
+    margin: 2em 0 0.6em;
+  }
+  h4.close {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 1.4em 0;
+    padding: 20px 22px;
+    background: var(--highlight);
+    border-left: 4px solid var(--accent);
+    border-radius: 4px;
+    color: var(--text);
+    font-style: normal;
+  }
+  p { margin: 0 0 1.15em; }
+  a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+  a:hover { text-decoration-thickness: 2px; }
+  strong { font-weight: 700; color: var(--text); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.4em 0; }
+  .lead {
+    font-size: 1.25rem;
+    line-height: 1.55;
+    margin-bottom: 1.2em;
+    font-weight: 500;
+  }
+  figure {
+    margin: 1.8em 0 2em;
+    padding: 0;
+  }
+  figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+  }
+  figcaption {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin-top: 10px;
+    padding-left: 4px;
+  }
+  figcaption .label {
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-size: 11px;
+    display: block;
+    margin-bottom: 2px;
+    color: var(--accent-ink);
+  }
+  .section-eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent-ink);
+    font-weight: 600;
+    margin-top: 2.2em;
+    margin-bottom: 0.3em;
+  }
+  .byline {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-top: 2.6em;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    line-height: 1.6;
+  }
+  .byline strong { color: var(--text); }
+
+  @media (max-width: 640px) {
+    body { padding: 32px 18px 80px; font-size: 17px; }
+    h1 { font-size: 2rem; }
+    h3.deck { font-size: 1.05rem; }
+    h2 { font-size: 1.3rem; }
+    h4.close { font-size: 1.1rem; padding: 16px; }
+    .lead { font-size: 1.1rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<div class="masthead">
+  <span class="dot"></span>
+  <span>Nikolai.CEO</span>
+  <span style="color: var(--rule)">·</span>
+  <span>Analysis by 100x.inc</span>
+  <span style="color: var(--rule)">·</span>
+  <span>April 2026</span>
+</div>
+
+<h1><span class="emoji">🏡</span>Our prediction of 2026 housing market</h1>
+<h3 class="deck">The bulls capitulated. We didn't.</h3>
+
+<p class="lead"><strong>National home prices will rise 1–2% in 2026 — and by year-end that average will hide a six-to-eight-point gap between the best and worst major metros.</strong></p>
+
+<figure>
+  <img src="./charts/chart_01_prediction_overview.png" alt="Chart 1 — 2026 prediction overview">
+  <figcaption>
+    <span class="label">Chart 1 · Our prediction</span>
+    The 100x.inc call: +1–2% national centerline with a metro-spread bar showing the six-to-eight-point gap between top and bottom major markets. Analysis by 100x.inc. Sources: ResiClub 300-metro dataset, Zillow ZHVI (March 2026).
+  </figcaption>
+</figure>
+
+<!-- <p>We predicted home prices would rise 4% in 2023 while everyone else was calling a crash. We were right.</p> -->
+
+<hr>
+
+<div class="section-eyebrow">Why: the lock-in cage</div>
+<h2>Supply cannot normalize</h2>
+
+<p><strong>7 out of 10 mortgages are locked below 5%. Typical homeowner tenure is 12 years — double 20 years ago.</strong></p>
+
+<p>At 6.38% rates, homeowners don't sell. Supply cannot normalize. Prices grind higher even with 600,000 more sellers than buyers in December — the <strong>highest on record</strong>.</p>
+
+<figure>
+  <img src="./charts/chart_02_rate_distribution.png" alt="Chart 2 — Outstanding mortgage rate distribution">
+  <figcaption>
+    <span class="label">Chart 2 · Rate distribution</span>
+    Distribution of outstanding mortgage rates. 70% of the stock sits below 5%. Today's new-loan rate of 6.38% marked. Analysis by 100x.inc. Sources: Bloomberg, Freddie Mac.
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="./charts/chart_03_lockin_dashboard.png" alt="Chart 3 — Lock-in dashboard">
+  <figcaption>
+    <span class="label">Chart 3 · The lock-in cage</span>
+    Three views of the lock-in: share of mortgages below 5%, median homeowner tenure, and the December seller-buyer gap. Analysis by 100x.inc. Sources: Bloomberg, NAR.
+  </figcaption>
+</figure>
+
+<hr>
+
+<div class="section-eyebrow">The catch</div>
+<h2>There is no national market</h2>
+
+<p><strong>99 of the 300 largest U.S. metros posted year-over-year price declines in February 2026. One in three.</strong></p>
+
+<p>Hartford sits 21.2% above its 2022 peak. Austin sits 27.9% below. Same country. Same rates. Opposite trajectories.</p>
+
+<figure>
+  <img src="./charts/chart_04_hartford_austin.png" alt="Chart 4 — Hartford vs. Austin barbell">
+  <figcaption>
+    <span class="label">Chart 4 · Bifurcation, extreme</span>
+    Change from 2022 peak. Hartford +21.2%, Austin −27.9% — a 49-point spread between two cities on the same 6.38% mortgage. Analysis by 100x.inc. Sources: ResiClub.
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="./charts/chart_05_metro_map.png" alt="Chart 5 — U.S. metro map colored by 2026 YoY price change">
+  <figcaption>
+    <span class="label">Chart 5 · Two housing markets</span>
+    Top 50 U.S. metros — bubble size by MSA population, color by 2026 YoY price change. The Sun Belt and West Coast are correcting; the Northeast and Midwest are rising. Analysis by 100x.inc. Sources: Zillow ZHVI (March 2026), Census.
+  </figcaption>
+</figure>
+
+<hr>
+
+<div class="section-eyebrow">Where consensus sits</div>
+<h2>Inside the band, not at the top</h2>
+
+<p><strong>21 of 24 major forecasters expect U.S. home prices to rise in 2026. Average: +1.43%. Range: −1% to +4.5%.</strong></p>
+
+<p>We sit inside that range. But the average hides the real story — which metro you own matters more than the national average.</p>
+
+<figure>
+  <img src="./charts/chart_06_forecaster_spread.png" alt="Chart 6 — 24-forecaster spread with 100x.inc">
+  <figcaption>
+    <span class="label">Chart 6 · Forecaster spread</span>
+    2026 U.S. home price forecasts, 24 firms plus 100x.inc. Consensus average +1.43%. 100x.inc's +1–2% call highlighted in orange. Analysis by 100x.inc. Sources: ResiClub 24-forecaster roundup.
+  </figcaption>
+</figure>
+
+<hr>
+
+<div class="section-eyebrow">Our prediction</div>
+<h2>Midwest and Northeast lead; Sun Belt correction bottoms</h2>
+
+<p><strong>Midwest and Northeast up 3–5%.</strong> Chicago, New York, Philadelphia, Detroit, and Boston lead.</p>
+
+<p><strong>Sun Belt down 2–4%.</strong> Tampa, Miami, Dallas, Denver, and Austin print another negative year — but the declines shrink. The correction is closer to the end than the beginning.</p>
+
+<figure>
+  <img src="./charts/chart_07_sunbelt_trajectory.png" alt="Chart 7 — Sun Belt 4-year trajectory">
+  <figcaption>
+    <span class="label">Chart 7 · Sun Belt trajectory</span>
+    Tampa, Miami, Dallas, Austin YoY price change 2022 through 2026. The 100x.inc 2026 forecast band (−2 to −4%) is shaded. Declines are shrinking but still negative. Analysis by 100x.inc. Sources: Zillow ZHVI.
+  </figcaption>
+</figure>
+
+<p>Lock-in does not release at 6.38%. It might at 5.5%. We don't see 5.5% this year.</p>
+
+<figure>
+  <img src="./charts/chart_08_rate_gauge.png" alt="Chart 8 — Rate gauge">
+  <figcaption>
+    <span class="label">Chart 8 · The trigger we're watching</span>
+    Today's 6.38%, 2026 consensus 6.18%, lock-in release threshold ~5.5%. The distance to release is 88 bps — a gap that rarely closes in a single year. Analysis by 100x.inc. Sources: Freddie Mac, ResiClub.
+  </figcaption>
+</figure>
+
+<hr>
+
+<div class="section-eyebrow">What could prove us wrong</div>
+<h2>Two scenarios we're watching</h2>
+
+<p><strong>Rates fall below 5.5%.</strong> Lock-in releases, inventory floods, and the Sun Belt recovers faster than we predict.</p>
+
+<p><strong>Builders flood the Sun Belt with sub-5% buy-downs.</strong> 2/3 of builders offered incentives in February. New-home supply pressures resale prices harder than we predict.</p>
+
+<figure>
+  <img src="./charts/chart_09_builder_incentives.png" alt="Chart 9 — Builder incentives">
+  <figcaption>
+    <span class="label">Chart 9 · Builder behavior</span>
+    February 2026: 67% of builders offering incentives, 42% advertising sub-5% buy-down rates, 33% cutting list prices. Analysis by 100x.inc. Sources: NAHB Builder Survey.
+  </figcaption>
+</figure>
+
+<hr>
+
+<h4 class="close">Expect home prices to keep rising in 2026 — in the cities nobody is watching.</h4>
+
+<div class="byline">
+  <strong>Analysis by 100x.inc</strong> · Data as of March 2026 · Not investment advice.<br>
+  Sources: ResiClub Analytics, Zillow ZHVI/ZHVF, NAR, NAHB, Bloomberg, Freddie Mac, WSJ, Redfin, Census.
+</div>
+
+</main>
+</body>
+</html>
